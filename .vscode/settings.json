@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnOpen": false,
+    "liveServer.settings.multiRootWorkspaceName": "Web Dev",
+    "liveServer.settings.host": "127.0.0.1",
+    "liveServer.settings.port": 5500
+}
