@@ -1,0 +1,170 @@
+body {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.super-content {
+    background-color: grey;
+    width: inherit;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(office.png) ;
+    background-size: auto 500px;
+}
+
+.super-content-description {
+    position: relative;
+    left: 100px;
+}
+
+.super-content-header {
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0%;
+}
+
+.super-content-paragraph {
+    width: 50%;
+}
+
+
+.link-1 {
+    background-color: black;
+    padding: 10px;
+    width: 120%;
+    color: white;
+    margin-right: 10px;
+}
+
+.link-2 {
+    padding: 10px;
+    width: 120%;
+    color: black;
+    margin-right: 10px;
+}
+
+.mini-content-box {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mini-content {
+    width: 25%;
+}
+
+.mini-content-img {
+    align-items: center;
+}
+
+.mini-content-header {
+    font-weight: bold;
+}
+
+.mini-content-paragraph {
+    width: 90%;
+}
+
+#footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+.lists {
+    list-style: none;
+    padding: 0%;
+}
+
+.list {
+    margin: 0%;
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.language-box {
+    position: relative;
+    left: 20px;
+}
+
+#languages {
+    border: none;
+    background: none;
+}
+
+.politics {
+    float: right;
+    position: relative;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li.logo {
+    margin-left: auto;
+}
+
+li {
+    font-size: 13px;
+}
+
+h1 {
+    font-style: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-style: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+

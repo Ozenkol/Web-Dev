@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-color: rgb(240,242,245);
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+            }
+            #main-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            #header-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 40%;
+            }
+            #logo {
+                position: relative;
+                top: 50px;
+                color: rgb(8,102,255);
+                font-size: 3em;
+            }
+            #facebook-intro {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: normal;
+            }
+            #register-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 600px;
+            }
+            #register {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+                width: 400px;
+                height: 350px;
+                border-radius: 10px;
+            }
+            #sign {
+                position: relative;
+                width: 350px;
+                height: 50px;
+                background-color: rgb(24,119,242);
+                color: white;
+                border-radius: 5px;
+                border: 1px;
+            }
+            #email-or-tele {
+                position: relative;
+                width: 350px;
+                height: 50px;
+                top: 10px;
+                border-radius: 5px;
+                border-color: rgb(221,223,226);
+            }
+            #password {
+                position: relative;
+                width: 350px;
+                height: 50px;
+                border-radius: 5px;
+                border-color: rgb(221,223,226);
+            }
+            #forget-password {
+                position: relative;
+                color: rgb(24,119,242);
+                
+            }
+            #line {
+                position: relative;
+                bottom: 10px;
+                width: 350px;
+            }
+            #create-account {
+                position: relative;
+                bottom: 20px;
+                width: 175px;
+                height: 50px;
+                background-color: green;
+                font-size: 1.1em;
+                color: white;
+                border-radius: 10px;
+                border: 1px;
+            }
+            #create-page {
+                position: relative;
+                text-align: center;
+                top: 15px;
+                width: 370px;
+            }
+            #footer-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                background-color: azure;
+                bottom: 0px;
+                width: 100%;
+            }
+            #languages {
+                display: flex;
+                align-items: center;
+                list-style: none;
+
+            }
+            #options {
+                display: flex;
+                align-items: center;
+                list-style: none;
+            }
+            li {
+                padding: 0 0.5em;
+                font-size: 0.85em;
+                color: grey;
+            }
+            #footer-line {
+                width: 90%;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main-content">
+            <div id = "header-content">
+                <h2 id="logo">facebook</h2>
+                <h2 id = "facebook-intro">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми</h2>
+            </div>
+            <div id="register-content">
+                <form id="register" action="/some-script" method="post">
+                    <div><input id="email-or-tele" type="text" placeholder="Электронный адрес и номер телефона"></div>
+                    <div><input  id="password" type="password" placeholder="Пароль"></div>
+                    <div><input id="sign" type="submit" value="Вход"></div>
+                    <div><a id="forget-password" href="">Забыли пароль</a>
+                    </div>
+                    <hr id="line">
+                    <div><button id="create-account">Создать аккаунт</button></div>
+                </form>
+                <p id="create-page">Создать Страницу знаменитостей, музыкальной группы или компаний</p>
+            </div>        
+        </div>
+        <div id = "footer-content">
+            <ul id="languages">
+                <li>Русский</li>
+                <li>English (US)</li>
+                <li>Türkçe</li>
+                <li>Bahasa Indonesia</li>
+                <li>中文(简体)</li>
+                <li>Қазақша</li>
+                <li>Deutsch</li>
+                <li>한국어</li>
+                <li>Shqip</li>
+                <li>Español</li>
+                <li>Português (Brasil)</li>
+            </ul>
+            <hr id="footer-line">
+            <ul id="options">
+                <li>Регистрация</li>
+                <li>Вход</li>
+                <li>Messenger</li>
+                <li>Facebook Lite</li>
+                <li>Видео</li>
+                <li>Места</li>
+                <li>Игры</li>
+            </ul>
+    </div>
+    </body>
+</html>
