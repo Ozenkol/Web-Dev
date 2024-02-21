@@ -3,7 +3,6 @@ import { RouterLink, RouterLinkActive, RouterOutlet, provideRouter } from '@angu
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-import { routes, AppRoutes } from './app.routes'; 
 
 
 
