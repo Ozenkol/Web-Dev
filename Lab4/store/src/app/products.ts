@@ -5,6 +5,7 @@ export interface Product {
     name: string;
     price: number;
     description: string;
+    rating: number;
   }
   
   export const products = [
@@ -14,7 +15,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 13 128Gb Midnight черный',
       price: 298285,
-      description: 'A large phone with one of the best screens'
+      description: 'A large phone with one of the best screens',
+      rating: 5
     },
     {
       id: 2,
@@ -22,7 +24,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Xiaomi Redmi 12 4G 8 ГБ/256 ГБ черный',
       price: 72312,
-      description: 'A great phone with one of the best cameras'
+      description: 'A great phone with one of the best cameras',
+      rating: 5
     },
     {
       id: 3,
@@ -30,7 +33,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 4,
@@ -38,7 +42,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 5,
@@ -46,7 +51,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 6,
@@ -54,7 +60,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 7,
@@ -62,7 +69,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 8,
@@ -70,7 +78,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 9,
@@ -78,7 +87,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     },
     {
       id: 10,
@@ -86,7 +96,8 @@ export interface Product {
       url: '',
       name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
       price: 614516,
-      description: ''
+      description: '',
+      rating: 5
     }
   ];
   
