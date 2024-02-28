@@ -1,0 +1,5 @@
+<div class="row">
+    <ng-container *ngFor="let product of products">
+        <app-product-item class="col-4" *ngIf="categories.includes(product.categories)" [product]="product" (remove)="onNewTaskRemove($event)"></app-product-item>
+    </ng-container>
+</div>
