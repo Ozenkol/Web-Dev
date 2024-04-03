@@ -14,10 +14,8 @@ class ProductListUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ProductSerializer
     
     def get_queryset(self):
-        user = self.request.user
-        print('This', user)
-        print('This', user.id)
-        return Product.objects.filter(id = user.id)
+        print(self.kwargs['pk'])
+        return Product.objects.filter(id = self.kwargs['pk'])
     
 class CategoryList(generics.ListAPIView):
     serializer_class = CategorySerializer
@@ -29,14 +27,14 @@ class CategoryListUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = CategorySerializer
     
     def get_queryset(self):
-        id = self.request.user.id
-        return Category.objects.filter(id = id)
+        return Category.objects.filter(id = self.kwargs['pk'])
+
+        
 
 class ProductListCategory(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ProductSerializer
     
     def get_queryset(self):
-        id = self.request.user.id
-        return Product.objects.filter(category_id = id)
+        return Product.objects.filter(category = self.kwargs['pk'])
 
 
