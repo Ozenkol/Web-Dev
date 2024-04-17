@@ -1,0 +1,19 @@
+<h1 class="mx-4 my-4">Vanancies</h1>
+
+
+<div *ngIf="vacancies?.length == 0" class="mx-4 my-4">
+    Empty
+</div>
+
+<div *ngIf="vacancies" class="mx-4 my-4">
+    <div class="row">
+        <div *ngFor="let vacancy of vacancies" class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">{{vacancy.name}}</h3>
+                    <p class="card-text">{{vacancy.description}} - {{vacancy.salary}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
